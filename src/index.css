@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .align-element {
+        @apply max-w-5xl mx-auto px-4
+    }
+}
+
+* {
+    background-color: #ebf0fa;
+}
+
+body,
+html,
+#root {
+    background-color: #ebf0fa;
+    height: 100%;
+}
